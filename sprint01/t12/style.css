@@ -1,0 +1,34 @@
+.box {
+    background: #DDD;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50px;
+    height: 50px;
+    width: calc(100vw - 100px);
+    display: grid;
+    align-items: center;
+    padding-left: 10px;
+}
+
+ .box:before {
+    background: transparent;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    left: -25px;
+    height: 49px; 
+    width: calc(100vw - 50px);
+    position: absolute;
+    content: "";
+}
+
+.box:after {
+    background: transparent;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    top: -25px;
+    height: 100px;
+    left: 0;
+    width: calc(100vw - 101px);
+    position: absolute;
+    content: "";
+} 

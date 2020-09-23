@@ -1,0 +1,18 @@
+.japan {
+    border: 2px solid #CCC;
+    padding: 33.3%;
+    position: relative;
+}
+
+.japan::before {
+    box-sizing: border-box;
+    background-color: #AE2233;
+    border: 3px solid #B23834;
+    border-radius: 50%;
+    content: "";
+    height: 60%;
+    position: absolute;
+    width: 40%;
+    top: 20%;
+    left: 30%;
+}

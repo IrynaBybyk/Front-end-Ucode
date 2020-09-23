@@ -1,0 +1,106 @@
+h1 {
+    text-align: center;
+}
+
+.top > li,
+.second > li,
+.third > li,
+.fourth {
+    height: 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top * {
+    font: bold 18px Arial, Helvetica, sans-serif;
+}
+
+.top > li {
+    position: relative;
+    float: left;
+    width: 250px;
+    background: green;
+}
+
+.top > li:hover {
+    background: burlywood;
+}
+
+.top li:hover > ul {
+    display: inline;
+}
+
+.second {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 250px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.second > li {
+    position: relative;
+    background: green;
+}
+
+.second > li:hover {
+    background: burlywood;
+}
+
+.third{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.third > li {
+    background:green;
+}
+
+.third > li:hover {
+    background:burlywood;
+}
+.fourth {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 250px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.fourth > li {
+    background: green;
+}
+
+.fourth > li:hover {
+    background: burlywood;
+}
+
+.top a {
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+    line-height: 40px;
+}
+
+.top a:hover {
+    color: #000000;
+}

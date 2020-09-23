@@ -1,0 +1,22 @@
+.search-menu {
+    display: grid;
+    grid-template-columns: 1fr 80px;
+    position: relative;
+    width: 100%;
+}
+
+.search-menu > input {
+    color: green;
+    font-size: 14px;
+}
+
+.search-menu > button {
+    color: green;
+    height: 2em;
+    font-size: 18px;
+}
+
+.search-menu > button:hover,
+.search-menu > input:hover {
+    color: red;
+}

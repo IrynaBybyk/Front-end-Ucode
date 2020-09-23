@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.circle {
+    background: green;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: calc(35vh - 50px);
+    transition: 2s;
+    animation: travel 3s linear infinite;
+}
+
+.circle:hover {
+    background: red;
+}
+
+@keyframes travel {
+    50% {
+        left: calc(100vw - 200px);
+    }
+    100% {
+        left: 0;
+    }
+}

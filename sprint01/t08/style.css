@@ -1,0 +1,48 @@
+.table {
+    background: linear-gradient(90deg, #6e0000, antiquewhite);
+    border: 4px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table * {
+    text-align: center;
+}
+
+.thead > tr > th {
+    border: 2px solid rgba(189, 195, 199, 0.05);
+    color: #ffe369;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.first {
+    background: #772B24;
+}
+
+.second {
+    background: #68150D;
+}
+.tbody > tr > td:first-of-type {
+    color: white;
+    padding: 5px 50px;
+}
+
+.bright {
+    background: #F8EBD9;
+    border: 2px solid rgba(189, 195, 199, 0.05);
+    color: midnightblue;
+    padding: 5px 50px;
+}
+
+.dark {
+    background: #7F170D;
+    border: 2px solid rgba(189, 195, 199, 0.05);
+    color: white;
+    padding: 5px 50px;
+}
+
+.tfoot, a {
+    color: white;
+    padding: 5px 50px;
+}

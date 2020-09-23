@@ -1,0 +1,32 @@
+.weather-box {
+    display: inline-block;
+}
+
+.weather-box * {
+    display: block;
+    font-family: Lato, Helvetica, serif;
+    text-align: center;
+    max-height: 150px;
+}
+
+.weather-box > img {
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.date {
+    background: #4095B5;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.temperature {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.weather-box:hover {
+    box-shadow: 0 0 10px 1px #000;
+}

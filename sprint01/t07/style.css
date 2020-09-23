@@ -1,0 +1,7 @@
+.image {
+    transition: 0.25s;
+}
+
+.image:hover {
+    transform: rotate(-30deg);
+}

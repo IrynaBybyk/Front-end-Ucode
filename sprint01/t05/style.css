@@ -1,0 +1,84 @@
+.menu {
+    display: grid;
+    gap: 70px 0;
+    padding: 50px;
+    justify-items: center;
+}
+
+.hero-box {
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 140px;
+    position: relative;
+    width: 270px;
+}
+
+.first-block {
+    background: linear-gradient(#4568DC, #B06AB3);
+}
+
+.second-block {
+    background: linear-gradient(#e52d27, #b31217);
+}
+
+.third-block {
+    background: linear-gradient(#000, #61045F);
+}
+
+.fourth-block {
+    background: linear-gradient(#e52d27, #000);
+}
+
+.left-block {
+    position: relative;
+}
+
+.left-block img {
+    height: auto;
+    width: 90%;
+    position: absolute;
+}
+
+.for-top {
+    bottom: 0;
+}
+
+.for-bottom {
+    top: 0;
+}
+
+.right-block {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding: 10px;
+    position: relative;
+}
+
+.right-block b {
+    font-size: 14px;
+    color: white;
+}
+
+.right-block span {
+    font-size: 12px;
+    color: #A5ACE3;
+}
+
+@media screen and (min-width: 1080px) {
+    .menu {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1080px) {
+    .menu {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .menu {
+        grid-template-columns: 1fr;
+    }
+}
